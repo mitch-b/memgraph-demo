@@ -15,3 +15,8 @@ dotnet build
 # first-time
 dotnet dev-certs https --trust
 ```
+
+## Useful Links
+
+* https://memgraph.com/docs/deployment/docker
+* https://memgraph.com/docs/data-migration

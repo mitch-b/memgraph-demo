@@ -1,7 +1,11 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
 var memgraph = builder.AddMemgraph("memgraph")
-    .WithMemgraphLab();
+    .WithMemgraphLab()
+    .WithVolume("memgraph-graph-data", "/var/lib/memgraph")
+    .WithVolume("memgraph-user-data", "/usr/lib/memgraph")
+    .WithVolume("memgraph-config", "/etc/memgraph")
+    .WithVolume("memgraph-logs", "/var/log/memgraph");
 
 var cache = builder.AddRedis("cache");
 
