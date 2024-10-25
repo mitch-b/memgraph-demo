@@ -15,5 +15,6 @@
     <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.9.0" />
     <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.9.0" />
     <PackageVersion Include="Aspire.StackExchange.Redis.OutputCaching" Version="8.0.1" />
+    <PackageVersion Include="Robbss.Aspire.Hosting.Memgraph" Version="8.2.1" />
   </ItemGroup>
 </Project>
