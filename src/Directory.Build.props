@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <Product>MemGraph Demo</Product>
+    <Authors>Mitchell Barry</Authors>
+
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <UserSecretsId>f2d40ff5-18a7-4cf5-bd5a-9f4b3c7ede56</UserSecretsId>
+  </PropertyGroup>
+</Project>
